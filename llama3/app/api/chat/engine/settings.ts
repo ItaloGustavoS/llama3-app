@@ -65,7 +65,7 @@ function initOllama() {
     config,
   });
   Settings.embedModel = new HuggingFaceEmbedding({
-    modelType: "BAAI/bge-small-en-v1.5",
+    modelType: "jinaai/jina-embeddings-v2-base-en",
     quantized: false,
   });
 }

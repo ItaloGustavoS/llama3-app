@@ -9,7 +9,6 @@ import {
   Settings,
 } from "llamaindex";
 import { HuggingFaceEmbedding } from "llamaindex/embeddings/HuggingFaceEmbedding";
-import { OllamaEmbedding } from "llamaindex/embeddings/OllamaEmbedding";
 import { ALL_AVAILABLE_ANTHROPIC_MODELS } from "llamaindex/llm/anthropic";
 import { Ollama } from "llamaindex/llm/ollama";
 
@@ -62,12 +61,12 @@ function initOllama() {
     host: process.env.OLLAMA_BASE_URL ?? "http://127.0.0.1:11434",
   };
   Settings.llm = new Ollama({
-    model: process.env.MODEL ?? "",
+    model: "llama3",
     config,
   });
-  Settings.embedModel = new OllamaEmbedding({
-    model: process.env.EMBEDDING_MODEL ?? "",
-    config,
+  Settings.embedModel = new HuggingFaceEmbedding({
+    modelType: "BAAI/bge-small-en-v1.5",
+    quantized: false,
   });
 }
 

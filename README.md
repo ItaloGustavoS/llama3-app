@@ -1,7 +1,7 @@
 This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama), using NextJs + NodeJs + Folder for Files to add context to the LLM.
 
 Version 1.0 - All Working - 21/06/2024
-Version 1.1 - Changed the context PDF to a Psicology Dictionary, updated the embedding model, updated the avatar of the bot, and added Telemetry, but is probably not working yet. - 27/06/2024
+Version 1.1 - Changed the context PDF to a Psicology Dictionary, updated the embedding model, updated the avatar of the bot, and added Telemetry, but is probably not working yet. Psicology Assistant Persona - 27/06/2024
 
 ## Getting Started
 

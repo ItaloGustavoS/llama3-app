@@ -6,7 +6,7 @@ import "./markdown.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Llama3 Assistant",
+  title: "Psicology Assistant",
   description: "Created with Llama3",
 };
 

@@ -8,9 +8,8 @@ export default function Header() {
           href="https://lmconsulti.com.br/"
           className="flex items-center justify-center font-nunito text-lg font-bold gap-2"
         >
-          <span>Built by LM4Tech</span>
+          <span>Built by</span>
           <Image
-            className="rounded-xl"
             src="/lm4tech.png"
             alt="Lm Logo"
             width={150}

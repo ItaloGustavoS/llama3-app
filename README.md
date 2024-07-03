@@ -1,5 +1,13 @@
 This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama), using NextJs + NodeJs + Folder for Files to add context to the LLM.
 
+## About the Model and Contexts Added
+
+- LLM Model: LLama 3 8B
+- Data Context: Psicology Dictionary, ICD 10 and ICD 11
+- Creator of the Idea and Suggestions: Nathanne Reis
+
+## Version History
+
 - Version 1.0 - All Working - 21/06/2024
 - Version 1.1 - Changed the context PDF to a Psicology Dictionary, updated the embedding model, updated the avatar of the bot, and added Telemetry, but is probably not working yet. Psicology Assistant Persona - 27/06/2024
 - Version 1.2 - Added new PDFs to context, Psicology Dictionary, ICD 10 and ICD 11, changed bot avatar, updated and improved the prompt instructions - 28/06/2024

@@ -1,6 +1,7 @@
 {
   "name": "llama3",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "format": "prettier --ignore-unknown --cache --check .",
     "format:write": "prettier --ignore-unknown --write .",

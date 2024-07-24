@@ -2,9 +2,10 @@ This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https
 
 ## About the Model and Contexts Added
 
-- LLM Model: LLama 3 8B
+- LLM Model: LLama 3.1 8B
 - Data Context: Psicology Dictionary, ICD 10 and ICD 11
-- Creator of the Idea and Suggestions: Nathanne Reis
+- Creator of the Idea and Suggestions about the assistant: Nathanne Reis
+- Creator of the app: Ítalo Gustavo
 
 ## Version History
 
@@ -12,6 +13,7 @@ This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https
 - Version 1.1 - Changed the context PDF to a Psicology Dictionary, updated the embedding model, updated the avatar of the bot, and added Telemetry, but is probably not working yet. Psicology Assistant Persona - 27/06/2024
 - Version 1.2 - Added new PDFs to context, Psicology Dictionary, ICD 10 and ICD 11, changed bot avatar, updated and improved the prompt instructions - 28/06/2024
 - Version 1.3 - Changed LM Logo to black, ideas from Nathanne implemented, changed the model Temperature to 0.5
+- Version 1.4 - Updated the model to llama3.1:8b, changed the instructions to remove the mencions of the ".pdf", showing now only the name of the books
 
 ## Getting Started
 

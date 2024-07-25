@@ -61,7 +61,7 @@ function initOllama() {
     host: process.env.OLLAMA_BASE_URL ?? "http://127.0.0.1:11434",
   };
   Settings.llm = new Ollama({
-    model: "llama3",
+    model: "llama3.1:8b",
     config,
   });
   Settings.embedModel = new HuggingFaceEmbedding({

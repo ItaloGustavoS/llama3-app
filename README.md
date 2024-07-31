@@ -5,7 +5,7 @@ This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https
 - LLM Model: LLama 3.1 8B
 - Data Context: Psicology Dictionary, ICD 10 and ICD 11
 - Creator of the Idea and Suggestions about the assistant: Nathanne Reis
-- Creator of the app: Ítalo Gustavo
+- Creators of the app: Ítalo Gustavo and Nathanne Reis
 
 ## Version History
 

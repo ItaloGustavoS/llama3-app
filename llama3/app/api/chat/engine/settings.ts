@@ -61,11 +61,11 @@ function initOllama() {
     host: process.env.OLLAMA_BASE_URL ?? "http://127.0.0.1:11434",
   };
   Settings.llm = new Ollama({
-    model: "llama3.1:8b",
+    model: "llama3.2:3b",
     config,
   });
   Settings.embedModel = new HuggingFaceEmbedding({
-    modelType: "BAAI/bge-small-en-v1.5",
+    modelType: "BAAI/bge-m3",
     quantized: false,
   });
 }

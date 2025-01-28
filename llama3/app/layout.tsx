@@ -6,8 +6,8 @@ import "./markdown.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Psicology Assistant",
-  description: "Created with Llama 3.2",
+  title: "AI Assistant",
+  description: "Created with Llama3",
 };
 
 export default function RootLayout({

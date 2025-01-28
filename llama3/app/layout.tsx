@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AI Assistant",
-  description: "Created with Llama3",
+  description: "Created with Llama3.2",
 };
 
 export default function RootLayout({
